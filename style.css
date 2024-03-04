@@ -1,0 +1,294 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.general{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100vh;
+    background-color: #fbf8f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.nav_section{
+    /* border: 1px solid black; */
+    width: 75%;
+    height: 15%;
+    display: flex;
+    margin: 0 auto;
+}
+.text{
+    /* border: 1px solid black; */
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.text p{
+    font-style: italic;
+    font-weight: 800;
+    color: #3180f5;
+}
+nav{
+    /* border:  1px solid red; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul{
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 50%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: #777776;
+}
+
+.Twitter{
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 50%;
+    color: white;
+    background-color: #1da1f2;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding: 15px 20px;
+}
+
+.Twitter_section_two{
+    /* border: 1px solid black; */
+    height: 75%;
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.text_div{
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 70%;
+}
+
+.image_div{
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 30%;
+}
+
+.image_div img{
+    width: 100%;
+    height: 100%;
+}
+.Twitter_analytics h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 75px;
+    margin-bottom: 20px;
+}
+
+.Twitter_analytics_paragraph p{
+    color:#777776;
+    line-height: 32px;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+.Twitters{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.box{
+    font-size: 18px;
+}
+.p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    color: #1f7898;
+}
+
+.userAvatar{
+    /* border: 1px solid black; */
+    display: flex;
+    margin-top: 30px;
+
+}
+.image_one{
+    position: relative;
+}
+.image_two{
+    position: absolute;
+    left: 14%;
+}
+.image_three{
+    position: absolute;
+    left: 252px;
+}
+.image_four{
+    position: absolute;
+    left: 272px;
+}
+.image_five{
+    position: absolute;
+    left: 295px;
+}
+.image_six{
+    position: absolute;
+    left: 317px;
+}
+.image_seven{
+    position: absolute;
+    left: 340px;
+}
+.image_eight{
+    position: absolute;
+    left: 370px;
+}
+.image_nine{
+    position: absolute;
+    left: 390px;
+}
+.hand{
+    display: none;
+}
+
+
+.second_section{
+    /* border:  2px solid black;  */
+    width: 75%;
+    height: 90vh;
+    margin: 0 auto;
+}
+.features{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 20%;
+}
+
+.features h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    padding-top: 20px;
+    line-height: 45px;
+}
+
+.container{
+/* border: 1px solid black; */
+width: 100%;
+height: 80%;
+display: flex;
+flex-wrap: wrap;
+justify-content:center;
+gap: 20px;
+}
+
+.boxs{
+    border: 1px solid #919191;
+    width: 45%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #919191;
+    margin-bottom: 0;
+}
+
+.boxs img{
+    margin-bottom: 20px;
+}
+
+.boxs h3{
+    margin-bottom: 20px;
+}
+
+.boxs2{
+    border: 1px solid #919191;
+    width: 45%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #919191;
+    margin-bottom: 0;
+}
+
+.boxs2 img{
+    margin-bottom: 20px;
+}
+
+.boxs2 h3{
+    margin-bottom: 20px;
+}
+
+.section3{
+    border: 1px solid transparent;
+width: 100%;
+height: 60vh;
+background-color: #d7f5f5;
+}
+
+.section3_container{
+    /* border: 1px solid black; */
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+
+}
+.check{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.testimonials{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.sara{
+    /* border: 1px solid black; */
+    width: 32%;
+    height: 70%;
+}
+.saras{
+    /* border: 1px solid black; */
+    width: 32%;
+    height: 95%;
+}
+.sara img{
+    width: 100%;
+    height: 100%;
+}
+.saras img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+/* Mobile device */
